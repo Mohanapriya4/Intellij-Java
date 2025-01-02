@@ -1,6 +1,7 @@
 package com.mohanapriya;
 
 import java.util.Scanner;
+import java.util.Arrays;
 
 public class ArraysTopic {
     public static void main(String[] args) {
@@ -25,9 +26,12 @@ public class ArraysTopic {
 
         //using for each instead of for loop
         //syntax: datatype new reference: old reference
-        for(int num:arr){
-            System.out.print(num + " ");
-        }
+//        for(int num:arr){
+//            System.out.print(num + " ");
+//        }
+
+        //arrays class have a method called toString which converts into string
+        System.out.println(Arrays.toString(arr));
 
 
 
